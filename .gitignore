@@ -1,0 +1,82 @@
+### Python ###
+# byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+.installed.cfg
+.Python
+develop-eggs/
+dist/
+eggs/
+env/
+#lib/
+lib64/
+parts/
+sdist/
+var/
+
+# PIP-related installer logs
+pip-delete-this-directory.txt
+pip-log.txt
+
+# Unit test / coverage reports
+.cache
+.coverage
+.tox/
+_trial_temp
+coverage.xml
+dropin.cache
+htmlcov/
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Rope stuff:
+*.ropeproject
+
+# VIM stuff:
+.*.sw*
+
+# build files
+bld
+
+# local Node module directories and symlinks
+node_modules
+
+# generated files
+foundation/src/cxx/include/unscrambl/foundation/BuildTimeDefinitions.h
+foundation/src/cxx/include/unscrambl/foundation/Version.h
+npm_managed_assets/packages/unscrambl-foundation/src/gen
+src/java/src/com/unscrambl/Version.java
+src/python/src/unscrambl/version.py
+src/web/app/common/version.js
+src/web/app/common/version.json
+
+# DTO files are created after a "make install" and are not committed to the repository
+npm_managed_assets/packages/unscrambl-foundation/src/dto
+npm_managed_assets/packages/unscrambl-foundation/test/dto
+
+# generated Git config file
+.config
+
+# macOS-generated files
+._.DS_Store
+.DS_Store
+
+# VSCode related
+.classpath
+.factorypath
+.project
+.settings
+.vscode
