@@ -1,3 +1,5 @@
+package com.learnings;
+
 import java.util.concurrent.ConcurrentHashMap;
 
 public final class UrlShortner
@@ -30,5 +32,10 @@ public final class UrlShortner
     public String tinyUrl(final String url, final String customString)
     {
         return "" + customString;
+    }
+
+    public static void main(String[] args)
+    {
+
     }
 }
