@@ -1,7 +1,9 @@
+package com.learnings;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 
-public class Main22032021 extends Thread {
+public class ThreadWithLocks extends Thread {
     public static int number = 0;
 
     private static final ReentrantLock mReentrantLock = new ReentrantLock();
@@ -24,10 +26,10 @@ public class Main22032021 extends Thread {
 
     public static void main(String[] args)
     {
-        final Main22032021 threadOne = new Main22032021();
-        final Main22032021 threadTwo = new Main22032021();
-        final Main22032021 threadThree = new Main22032021();
-        final Main22032021 threadFour = new Main22032021();
+        final ThreadWithLocks threadOne = new ThreadWithLocks();
+        final ThreadWithLocks threadTwo = new ThreadWithLocks();
+        final ThreadWithLocks threadThree = new ThreadWithLocks();
+        final ThreadWithLocks threadFour = new ThreadWithLocks();
         threadOne.start();
         threadTwo.start();
         threadThree.start();
